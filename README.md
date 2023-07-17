@@ -5,7 +5,7 @@ Layer Freezing in NLP Transfer Learning
 
 Hello, I'm **Wesley**, nice to meet you. 👋
 
-**Transfer learning** is the technique of using a pre-trained base model (e.g. BERT) and adapating it to a particular domain to do a particular task. The name we call this type of training in the transfer learning domain is *fine-tuning*.
+**Transfer learning** is the deep learning technique of using a large pre-trained base model (e.g. BERT) and adapating it to a particular domain to do a particular task. The name we call this type of training in the transfer learning domain is *fine-tuning*.
 
 **Traditionally**, the process of *fine-tuning* has usually been done with **all** the layers of a base model as trainable parameters with a low learning rate to get the **best performance** possible. This is done in the hopes that we can reuse most of the **semantic representations** that it had learned from its the pretrained dataset while having the flexibility to adapt the model to a different domain with similar dataset characteristics. For example, **BERT** is pre-trained on *English* datasets (**BookCorpus** and **Wikipedia**), and so it would be **ideal** that we *fine-tune* the model on an *English* dataset to leverage its previous understanding of English and use it to do other tasks like sentiment classification to have **minimal** data distribution shift.
 
